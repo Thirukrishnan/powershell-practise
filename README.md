@@ -1,2 +1,2 @@
 # powershell-practise
-Powershell commands and scripting practised
+Powershell commands and scripting.
