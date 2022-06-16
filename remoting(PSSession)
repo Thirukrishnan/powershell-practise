@@ -1,0 +1,10 @@
+Get-PSSession  -- to list out Remote Sessions created
+
+New-PSSession -ComputerName -Credential   -- to create
+
+Enter-PSSession -Id <no>   --- to enter the session
+
+Remove-PSSession -Id <no>  -- to remove
+
+
+One thing as a attacker you check for open ps sessions in the machine you have got foothold and if its open you could leverage this to laterally move!
