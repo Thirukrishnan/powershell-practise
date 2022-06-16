@@ -1,0 +1,13 @@
+Invoke-Commmand -ScriptBlock {commands to execute on remote machine} -ComputerName -Credential
+
+Invoke-Command -FilePath <Powershellscript to execute on remote machine>  -ComputerName -Credential
+
+How to execute Modules??
+
+Import-Module locally
+
+Invoke-Command -ScriptBlock ${function:FUNCTIONNAME} -ComputerName -Credential
+
+How to run script on multiple machines??
+
+Invoke-Commmand -ScriptBlock {commands to execute on remote machine} -ComputerName pc1,pc2 ... -Credential  (executes commands parallelly so much faster)
